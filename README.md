@@ -1,2 +1,2 @@
-# essays
-A list of essays from yours truly. 
+# Essays
+Thinking out loud.
