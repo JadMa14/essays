@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>essays</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -52,6 +53,18 @@ h1 {
 .essay-list a {
   color: #0066cc;
   text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  .container {
+    padding: 24px 20px;
+    max-width: 100%;
+  }
+  .watermark {
+    font-size: 28px;
+  }
 }
 </style>
 </head>
