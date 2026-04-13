@@ -3,15 +3,19 @@
 <head>
 <title>Being Good</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
 <style>
+html, body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   margin: 0;
   padding: 0;
-  background: #fff;
-  color: #000;
   line-height: 1.6;
+  color-scheme: light only;
 }
 .sidebar {
   position: fixed;
@@ -30,9 +34,11 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 24px;
+  color: #000;
 }
 p {
   margin-bottom: 20px;
+  color: #000;
 }
 a {
   color: #0066cc;
@@ -44,14 +50,12 @@ a:hover {
 .back {
   color: #000;
   text-decoration: none;
-}
-.back:hover {
-  text-decoration: underline;
-}
-.back {
   display: inline-block;
   margin-bottom: 32px;
   font-size: 16px;
+}
+.back:hover {
+  text-decoration: underline;
 }
 blockquote {
   border-left: 3px solid #000;
