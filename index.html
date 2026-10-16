@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>essays</title>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light only">
+<title>Jad Malaeb</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HSE7W9870E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HSE7W9870E');
+</script>
 <style>
 html, body {
   background-color: #ffffff !important;
@@ -11,10 +20,10 @@ html, body {
 }
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
-  color-scheme: light only;
+  line-height: 1.6;
 }
 .sidebar {
   position: fixed;
@@ -29,34 +38,30 @@ body {
   margin: 0;
   padding: 40px 40px 40px calc(10vw + 40px);
 }
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: #1a1a4e;
-  font-variant: small-caps;
-}
 .watermark {
   font-size: 40px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.12);
-  margin: 0 0 -8px -2px;
-  line-height: 1;
+  margin: 0 0 4px 0;
 }
-.essay-list {
-  list-style: square;
-  padding: 0 0 0 20px;
+h2 {
+  font-variant: small-caps;
+  font-size: 24px;
+  color: navy;
+  margin: 0 0 16px 0;
+}
+a {
+  color: #0000EE;
+  text-decoration: underline;
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
-.essay-list li {
+li {
   margin-bottom: 4px;
-  line-height: 1.5;
-  font-size: 16px;
-  color: #555;
-}
-.essay-list a {
-  color: #0066cc;
-  text-decoration: underline;
 }
 @media (max-width: 600px) {
   .sidebar {
@@ -66,25 +71,19 @@ h1 {
     padding: 24px 20px;
     max-width: 100%;
   }
-  .watermark {
-    font-size: 28px;
-  }
 }
 </style>
 </head>
 <body>
-
 <div class="sidebar"></div>
 <div class="container">
   <div class="watermark">Jad Malaeb</div>
-  <h1>essays</h1>
-
-  <ul class="essay-list">
+  <h2>Essays</h2>
+  <ul>
+    <li><a href="the-agent-and-the-man-of-character.html">The Agent & The Man Of Character</a></li>
     <li><a href="being-good.html">Being Good</a></li>
     <li><a href="a-mountain-is-not-a-flower.html">A Mountain Is Not A Flower</a></li>
-    <li><a href="racism-and-other-generalizations.html">Racism &amp; Other Generalizations</a></li>
   </ul>
 </div>
-
 </body>
 </html>
